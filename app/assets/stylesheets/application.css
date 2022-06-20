@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+.notice {
+    color: green;
+}
+
 body {
     background-color: #fff;
     color: #333;
@@ -54,6 +58,10 @@ p, ol, ul, td {
     font-size: 13px;
     line-height: 18px;
     margin: 33px;
+}
+
+p {
+    display: block;
 }
 
 td {
